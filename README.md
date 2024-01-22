@@ -6,6 +6,7 @@
 ### You WILL have to enable Developer mode to use this method.
 SKIP TO PART TWO IF YOU HAVE DEV MODE ENABLED ALREADY
 Step one: Enable developer mode. Press Escape, Refresh, and Power to get into the chromebook recovery screen. **THIS WILL RESET YOUR CHROMEBOOK**
+
 ![image](https://github.com/OddbyteWasTaken/MC-on-chromebook/assets/141666866/046dba92-e712-49df-b5ff-0b54adca952e)
 
 Step two: Press Control and D to disable OS Verification (AKA Enable Developer mode) **THIS WILL RESET YOUR CHROMEBOOK**
