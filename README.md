@@ -66,4 +66,4 @@ Run `cd /usr/local/.config`
 
 Run `mkdir /media/removable/<Name of usb, press tab if you dont know it>/.minecraft/ && ln -s /media/removable/<Name of usb>/.minecraft gdlauncher_next` to link the folders.
 
-You are done, run `minecraft` to open the launcher, 
+You are done, run `minecraft` to open the launcher, and tell your friends about this repo!
