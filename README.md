@@ -60,7 +60,6 @@ If you want to open the .minecraft folder, type .minecraft into the shell after 
 **IMPORTANT: If you plan to use the USB method, please skip this:** Go to the normal screen by pressing Control Alt Back. Press Control Alt T to open the Crosh terminal. run `shell` to open a shell. Run `minecraft` to open the installer and have funs.
 
 # Part 3: USB
-If you want to put MC on a USB, dont open minecraft yet. That is a bad idea. If you dont want to put MC on a USB, skip to Part 4.
 
 Make sure the USB Is plugged in and you added the `sudo mount` line in .bashrc
 
