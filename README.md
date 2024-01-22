@@ -57,7 +57,7 @@ Run `source ~/.bashrc`
 
 If you want to open the .minecraft folder, type .minecraft into the shell after you install MC.
 
-**IMPORTANT: If you plan to use the USB method, please skip this:** Go to the normal screen by pressing Control Alt Back. Press Control Alt T to open the Crosh terminal. run `shell` to open a shell. Run `minecraft` to open the installer and have funs.
+**IMPORTANT: If you plan to use the USB method, please skip this:** Go to the normal screen by pressing Control Alt Back. Press Control Alt T to open the Crosh terminal. run `shell` to open a shell. Run `minecraft` to open the installer and have funs. If you dont have access to crosh, or for some other reason you dont want to use it, just run `minecraft` in VT-2 as chronos.
 
 # Part 3: USB
 
@@ -72,7 +72,7 @@ Run `mkdir /media/removable/<Name of usb, press tab if you dont know it>/.minecr
 # Part 4: Installing fabric mods to make minecraft play above 10 fps.
 Most chromebooks are f\*cking garbage. They will not be able to run the latest MC version at anything playable.
 
-Open the launcher by running `minecraft`.
+Open the launcher by running `minecraft` in crosh's shell. If you dont have access to crosh, or for some other reason you dont want to use it, just run `minecraft` in VT-2 as chronos.
 
 Install the launcher, and java, and log in with your minecraft account.
 
