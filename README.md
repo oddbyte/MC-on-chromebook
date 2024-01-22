@@ -33,7 +33,7 @@ Run `sudo --user=chronos bash` to log into chronos.
 
 Install [ChromeBrew](https://github.com/chromebrew/chromebrew).
 
-Run `crew install sommlier && crew install vim` (This downloads Sommlier, a very important application as it lets Minecraft actually open a window so you can play. Vim is a text editor we will be using.)
+Run `crew install sommelier && crew install vim` (This downloads Sommelier, a very important application as it lets Minecraft actually open a window so you can play. Vim is a text editor we will be using.)
 
 Run `cd ~/Downloads` to go into the downloads folder.
 
