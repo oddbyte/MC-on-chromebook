@@ -41,13 +41,15 @@ Run `mkdir /usr/local/GDLauncher/` to make the directory we will install the lau
 
 Run `sudo install GDLauncher-linux-setup.AppImage /usr/local/GDLauncher/GDLauncher-linux-setup.AppImage` (replace GDLauncher-linux-setup with the actual file name if it is different)
 
+Run `/usr/local/GDLauncher/GDLauncher-linux-setup.AppImage --appimage-extract`
+
 Run `vim ~/.bashrc` and press I (So you can edit it.)
 
 Add
 ```
 alias .minecraft='cd /usr/local/.config/gdlauncher_next/'
 
-alias minecraft='/usr/local/GDLauncher/GDLauncher-linux-setup.AppImage' # (replace GDLauncher-linux-setup with the actual file name if it is different)
+alias minecraft='/usr/local/GDLauncher/squashfs-root/gdlauncher'
 
 sudo mount -o remount,symfollow,exec "/media/removable/<Name of your SD / USB. spaces are allowed. Only put this line if you plan to run on a usb.>"
 ```
