@@ -37,7 +37,7 @@ Run `crew install sommelier && crew install vim` (This downloads Sommelier, a ve
 
 Run `cd ~/Downloads` to go into the downloads folder.
 
-Run `sudo install GDLauncher-linux-setup.AppImage` (replace GDLauncher-linux-setup with the actual file name if it is different)
+Run `sudo install GDLauncher-linux-setup.AppImage /usr/local/GDLauncher/GDLauncher-linux-setup.AppImage` (replace GDLauncher-linux-setup with the actual file name if it is different)
 
 Run `vim ~/.bashrc` and press I (So you can edit it.)
 
