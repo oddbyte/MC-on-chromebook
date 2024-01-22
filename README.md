@@ -2,6 +2,10 @@
 ## A tutorial on how to put minecraft Java edition on chromebook without using the crappy linux VM
 ![image](https://github.com/OddbyteWasTaken/MC-on-chromebook/assets/141666866/a328a927-d2ea-426e-8709-ae525235259f)
 
+## Read this please:
+This is so you can install a custom launcher to download mods. The default launcher you can download by typing `crew install minecraft` after installing chromebrew. This launcher is more difficult to work with, so please just use the custom launcher.
+
+
 # Part one: Setting up your chromebook
 ### You WILL have to enable Developer mode to use this method.
 SKIP TO PART TWO IF YOU HAVE DEV MODE ENABLED ALREADY
@@ -55,8 +59,8 @@ If you want to open the .minecraft folder, type .minecraft into the shell after 
 
 **IMPORTANT: If you plan to use the USB method, please skip this:** Go to the normal screen by pressing Control Alt Back. Press Control Alt T to open the Crosh terminal. run `shell` to open a shell. Run `minecraft` to open the installer and have funs.
 
-# Step 3: USB
-If you want to put MC on a USB, dont open minecraft yet. That is a bad idea.
+# Part 3: USB
+If you want to put MC on a USB, dont open minecraft yet. That is a bad idea. If you dont want to put MC on a USB, skip to Part 4.
 
 Make sure the USB Is plugged in and you added the `sudo mount` line in .bashrc
 
@@ -66,4 +70,17 @@ Run `cd /usr/local/.config`
 
 Run `mkdir /media/removable/<Name of usb, press tab if you dont know it>/.minecraft/ && ln -s /media/removable/<Name of usb>/.minecraft gdlauncher_next` to link the folders.
 
-You are done, run `minecraft` to open the launcher, and tell your friends about this repo!
+# Part 4: Installing fabric mods to make minecraft play above 10 fps.
+Most chromebooks are f\*cking garbage. They will not be able to run the latest MC version at anything playable.
+
+Open the launcher by running `minecraft`.
+
+Install the launcher, and java, and log in with your minecraft account.
+
+Press the **+** button in the bottom left of the window.
+
+Open the CurseForge tab, and search for the modpack named `Fabulously Optimized`, and install it.
+
+Play minecraft on the modpack on lowest settings, and get like 30 fps.
+
+Have fun, and tell your friends about this repo. Please Star the repo. TY!
