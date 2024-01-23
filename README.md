@@ -1,5 +1,7 @@
   # Java edition on chromebook
 ## A tutorial on how to put minecraft Java edition on chromebook without using the crappy linux VM
+
+**Warnining:** Chromebooks are not meant for gaming. Minecraft performance will not be good on new versions. I am getting 7-15 fps on a optimized modpack for 1.20.4. This repo is made for people who have new-ish chromebooks and want to install MC on them.
 ![image](https://github.com/OddbyteWasTaken/MC-on-chromebook/assets/141666866/a328a927-d2ea-426e-8709-ae525235259f)
 
 ## Read this please:
